@@ -1,0 +1,45 @@
+/* ==== Google font ==== */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,700,800|Roboto:400,500,700,900');
+/* --- pe-icon-7-stroke --- */
+
+
+.stars {
+    font-size: 5rem;
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.submit-btn {
+    background-color: v#cf2b2b;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600px;
+    margin-top: 0.5rem;
+}
+
+.submit-btn:enabled {
+    background: linear-gradient(45deg, var(--gradient-start), var(--gradient-end));
+    color: var(--secondary-color);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    
+}
+
+.submit-btn:enabled:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(98, 160, 240, 0.4);
+    cursor: pointer;
+
+}
+
+.submit-btn:disabled {
+    opacity: 100;
+    cursor: pointer;
+}
